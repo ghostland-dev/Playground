@@ -1,0 +1,23 @@
+<div class="flex container">
+<a
+  *ngFor="let item of Courses"
+  class="card white"
+  target="_blank"
+  rel="noopener"
+  href="https://material.angular.io"
+>
+<img class="img-card " src="{{item.image}}" alt="{{item.titre}}" srcset="">
+  <div class="flex">
+
+    <p>{{ item.titre }}</p>
+  </div>
+
+  <div class="rating ">
+    <div class="badge">{{ item.duree }} heurs</div>
+    <ng-container *ngFor="let _ of [1, 2, 3, 4, 5]">
+      <i class="fa fa-star"></i>
+    </ng-container>
+  </div>
+
+</a>
+</div>

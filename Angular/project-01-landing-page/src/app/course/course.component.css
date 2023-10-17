@@ -1,0 +1,79 @@
+ /* Gestion des container*/
+
+.white{
+  background: #fff !important;
+}
+.card:hover
+{
+  transform: scale(1.03);
+  background: rgb(25,39,78);
+  background: radial-gradient(circle, rgba(25,39,78,0.9226190476190477) 0%, rgba(34,51,93,1) 35%, rgba(72,82,117,1) 100%);
+  color: #fff;
+
+}
+
+.card
+{
+  box-shadow: #e4e7f7 0 0 5px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  margin: 2em;
+  padding: 1em 21px;
+  transition: all 1s;
+  color: #dee1f1;
+  background-color: #222f3f !important;
+
+}
+
+.card p {
+  background: #1d2436;
+  padding: 1em;
+  border-radius: 5px;
+  
+}
+
+
+
+.col{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  align-items: flex-start;
+  text-align: left;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ justify-content: center;
+  align-items: flex-start;
+}
+
+/* Gestion des medias*/
+.img-card
+{
+  max-width: 100%;
+  max-height: 8em;
+  border-radius: 1em;
+  margin: 2em auto;
+}
+
+/* Gestion des texts */
+a{
+  text-decoration: none;
+  color: #4d5166;
+}
+.badge{
+  color: #696c7c;
+  background: #dee1f1;
+  padding: 8px;
+  margin: 1em 0;
+  border-radius: 5px;
+
+}
